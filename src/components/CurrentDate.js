@@ -17,7 +17,7 @@ export const CurrentDate = () => {
         "August", "September", "October", "November", "December"];
 
     return (
-        <div style={{ color: '#6A6A6A', fontSize: 'small' }}>
+        <div style={{ color: '#6A6A6A', fontSize: 'small', flexDirection: 'column', position: 'absolute', top: '20px', left: '20px', height: '50px' }}>
             {date.getDate()}, {month[date.getMonth()]} {date.getFullYear()}
         </div>
     )
